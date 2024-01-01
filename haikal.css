@@ -1,0 +1,67 @@
+
+* {
+  margin: 12px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: yellow;
+  color: #333;
+}
+
+header {
+  width: 1500px;
+  height: 600px;
+  background-color: #444;
+  background-image: url(https://1.bp.blogspot.com/-LyBhWachXY4/XlFC3jNoCCI/AAAAAAAAH8Y/sfBW-6t4M3kw7ART6QeoniaFpCh7KbJHwCLcBGAsYHQ/s1600/Gitar%2BAkustik%2B1.jpg);
+  background-size: 100% 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.content {
+  flex: 20px;
+  padding: 30px;
+}
+
+.image {
+  flex: -2;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #444;
+  color: #fff;
+}
